@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "versionCode": 3,
-  "versionName": "0.3.0-beta",
+  "versionCode": 4,
+  "versionName": "0.4.0-beta",
   "minSdk": 26,
   "packageName": "com.jianyi.translator.prototype",
-  "sizeBytes": 2741333,
-  "sha256": "7590e9a6318b9eadc58dea15646cdd778340979c565e0925fdfca53a8ae96c10",
-  "notes": "新增应用内检查更新、下载进度和安装入口；安装前验证文件完整性、包名、版本和签名。保留原有离线查词、音标、翻译、历史与收藏。",
-  "apkUrl": "https://raw.githubusercontent.com/Submerge-hb/jianyi-releases/b4314af3b98a178f2c9f649b2b23f3bd51398fb4/packages/jianyi-0.3.0-beta.apk"
+  "sizeBytes": 22417410,
+  "sha256": "dc267963b73b2a3c4ae610ae5bf49f222fec268c9ef38d0476cce02831a56ca1",
+  "notes": "单词与句子联网优先，断网或服务失败自动使用本地词库和已保存译文；新增独立英美语音包，下载后可离线朗读，无需系统语音；优化首页、结果阅读和设置。APK 约22.4 MB；英式语音约80.5 MB、美式约67.2 MB，分别下载。首次联网翻译需同意。测试版：完整语音下载及一加12实机仍待验证，GitHub连接失败可更换网络重试。",
+  "apkUrl": "https://raw.githubusercontent.com/Submerge-hb/jianyi-releases/26056e145f482ed6ddc02cce208e478948157d03/packages/jianyi-0.4.0-beta.apk"
 }
