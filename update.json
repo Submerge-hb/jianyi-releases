@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "versionCode": 4,
-  "versionName": "0.4.0-beta",
+  "versionCode": 6,
+  "versionName": "0.5.1-beta",
   "minSdk": 26,
   "packageName": "com.jianyi.translator.prototype",
-  "sizeBytes": 22417410,
-  "sha256": "dc267963b73b2a3c4ae610ae5bf49f222fec268c9ef38d0476cce02831a56ca1",
-  "notes": "单词与句子联网优先，断网或服务失败自动使用本地词库和已保存译文；新增独立英美语音包，下载后可离线朗读，无需系统语音；优化首页、结果阅读和设置。APK 约22.4 MB；英式语音约80.5 MB、美式约67.2 MB，分别下载。首次联网翻译需同意。测试版：完整语音下载及一加12实机仍待验证，GitHub连接失败可更换网络重试。",
-  "apkUrl": "https://raw.githubusercontent.com/Submerge-hb/jianyi-releases/26056e145f482ed6ddc02cce208e478948157d03/packages/jianyi-0.4.0-beta.apk"
+  "sizeBytes": 22475433,
+  "sha256": "971f04013e32fe99efc11df706f256471846121af798851382ecc5310d2cf480",
+  "notes": "简译现更名为轻语：全新淡墨山水首页，界面更简洁。英式声音换为 Cori medium（请在设置中更新英式语音包），英美朗读加入模型复用、预加载、音频缓存及分段播放。保持联网优先、断网自动离线。此为公开测试版，一加 12 的清晰度与速度仍待实际体验反馈。",
+  "apkUrl": "https://raw.githubusercontent.com/Submerge-hb/jianyi-releases/2919afc49c58611aa8c5f1838625763941a95e9f/packages/jianyi-0.5.1-beta.apk"
 }
