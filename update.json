@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "versionCode": 6,
-  "versionName": "0.5.1-beta",
+  "versionCode": 7,
+  "versionName": "0.6.0-beta",
   "minSdk": 26,
   "packageName": "com.jianyi.translator.prototype",
-  "sizeBytes": 22475433,
-  "sha256": "971f04013e32fe99efc11df706f256471846121af798851382ecc5310d2cf480",
-  "notes": "简译现更名为轻语：全新淡墨山水首页，界面更简洁。英式声音换为 Cori medium（请在设置中更新英式语音包），英美朗读加入模型复用、预加载、音频缓存及分段播放。保持联网优先、断网自动离线。此为公开测试版，一加 12 的清晰度与速度仍待实际体验反馈。",
-  "apkUrl": "https://raw.githubusercontent.com/Submerge-hb/jianyi-releases/2919afc49c58611aa8c5f1838625763941a95e9f/packages/jianyi-0.5.1-beta.apk"
+  "sizeBytes": 22582624,
+  "sha256": "b5b3731f30979ed7ef1b2e551b6c0479c2feae5a76322f0fefdcee97398433ec",
+  "notes": "联网翻译改用个人百度通用文本翻译接口；首次升级请在设置→翻译服务配置自己的 APP ID、密钥并核对额度。增加完整原文覆盖检查、7天有效缓存、请求取消与本机每月10万字符上限；未配置时仍可离线查词。首页标题和题句换为更小的清秀楷体；更新页提供浏览器下载及可读错误提示。保留原签名、收藏、历史和英美离线语音包。真实联网已获使用者确认可用；网络P95性能仍待量化验收。",
+  "apkUrl": "https://raw.githubusercontent.com/Submerge-hb/jianyi-releases/dd3fcc7d71bf903860d9fbcbb422bcf93aebaecc/packages/jianyi-0.6.0-beta.apk"
 }

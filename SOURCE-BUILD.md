@@ -1,6 +1,6 @@
-# 轻语 0.5.1 对应源码与构建
+# 轻语 0.6.0 对应源码与构建
 
-本源码对应 `qingyu-0.5.1-beta.apk`，应用代码按 GNU GPL v3 或更高版本提供。第三方源码、词库和模型保留各自许可，见 `app/src/main/assets/licenses/`。源码包包含应用源文件、资源、词库、构建配置和脚本；不含发行签名私钥或用户数据。
+本源码对应 `qingyu-0.6.0-beta.apk`，应用代码按 GNU GPL v3 或更高版本提供。第三方源码、词库和模型保留各自许可，见 `app/src/main/assets/licenses/`。源码包包含应用源文件、资源、词库、构建配置和脚本；不含发行签名私钥或用户数据。
 
 ## 构建应用
 
@@ -35,3 +35,13 @@
 开放词库及索引已经随源码包含。固定数据来源与哈希在 `dictionary-info.json`，重新生成脚本在 `tools/`。
 
 英美语音模型由应用分别下载，URL、文件名、大小和 SHA-256 固定在 `VoiceStore.java`。模型卡和语料许可随源码及 APK 提供。模型不包含在 APK 内，首次下载需联网；下载后合成和播放均在设备完成。完整语音包下载仍需在可访问 GitHub 且证书链有效的网络下验证。
+
+## 首页字体子集
+
+常规构建直接使用 app/src/main/res/font/qingyu_kai.ttf。字体来自霞鹜文楷 v1.530 常规字重，OFL 与来源说明在 assets/licenses/qingyu-kai-*。子集已改名为 Qingyu Home Kai，保留版权。
+
+重新生成：从 https://github.com/lxgw/LxgwWenKai/releases/tag/v1.530 下载 LXGWWenKai-Regular.ttf 到 tools/font-source/，安装 fonttools==4.60.1，执行 python tools/build-home-font.py。脚本固定 SHA-256 为 2d73eea94ad808999d90c0000c239a84a33b09d4bc6ab6c5b8bbf1eda8a7fc8b，仅保留首页文字，约 6 KB。完整上游字体无需随应用分发。
+
+## 个人翻译服务
+
+构建不需要百度密钥。安装后由使用者在手机内填写个人配置，通过 Android Keystore 加密保存。没有公共测试密钥、服务器端密钥或自建后端。androidTest 中明显标为 test/fake 的字符串仅用于模拟器测试，不是可用凭据。真实联调请按配置与验收说明执行。
