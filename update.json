@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "versionCode": 7,
-  "versionName": "0.6.0-beta",
+  "versionCode": 8,
+  "versionName": "0.6.1-beta",
   "minSdk": 26,
   "packageName": "com.jianyi.translator.prototype",
-  "sizeBytes": 22582624,
-  "sha256": "b5b3731f30979ed7ef1b2e551b6c0479c2feae5a76322f0fefdcee97398433ec",
-  "notes": "联网翻译改用个人百度通用文本翻译接口；首次升级请在设置→翻译服务配置自己的 APP ID、密钥并核对额度。增加完整原文覆盖检查、7天有效缓存、请求取消与本机每月10万字符上限；未配置时仍可离线查词。首页标题和题句换为更小的清秀楷体；更新页提供浏览器下载及可读错误提示。保留原签名、收藏、历史和英美离线语音包。真实联网已获使用者确认可用；网络P95性能仍待量化验收。",
-  "apkUrl": "https://raw.githubusercontent.com/Submerge-hb/jianyi-releases/dd3fcc7d71bf903860d9fbcbb422bcf93aebaecc/packages/jianyi-0.6.0-beta.apk"
+  "sizeBytes": 22589956,
+  "sha256": "9b6475b5e318bdffa0a10f06d1a44845324fc42fe118ae6fac68a60bde76cb76",
+  "notes": "紧凑翻译结果页：查询后保留小输入栏，短句原文与译文同屏，单词联网摘要与词典释义合并。朗读、复制、收藏固定在底部；大字号自动换行，长内容完整下滑。更多菜单提供重新联网翻译与来源说明，清空恢复山水首页。保留原签名、百度配置、配额、缓存、收藏历史和英美语音包。",
+  "apkUrl": "https://raw.githubusercontent.com/Submerge-hb/jianyi-releases/be21e4dfd08996bd4bb587706d702983beac3af3/packages/jianyi-0.6.1-beta.apk"
 }
